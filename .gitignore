@@ -1,0 +1,21 @@
+# Dependency folders
+node_modules/
+**/node_modules/
+
+# Bundled & Packaged Builds
+release/
+**/release/
+dist/
+**/dist/
+
+# Electron-specific outputs
+*.exe
+*.zip
+*.dmg
+*.AppImage
+
+# Environments & IDEs
+.env
+.env.*
+.vscode/
+.idea/s

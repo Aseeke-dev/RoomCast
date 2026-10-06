@@ -1,0 +1,15 @@
+{
+    "name": "roomcast-monorepo",
+    "private": true,
+    "scripts": {
+        "dev": "pnpm --parallel --filter \"@roomcast/*\" --filter \"server\" dev",
+        "build": "pnpm --recursive run build",
+        "lint": "eslint .",
+        "format": "prettier --write \"**/*.{ts,tsx,json,md}\""
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.0",
+        "typescript": "^5.3.3"
+    },
+    "packageManager": "pnpm@9.0.0"
+}

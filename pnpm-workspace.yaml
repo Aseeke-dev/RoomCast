@@ -1,0 +1,6 @@
+packages:
+  - 'apps/*'
+  - 'app/presenter'
+  - 'app/viewer'
+  - 'packages/*'
+  - 'server'

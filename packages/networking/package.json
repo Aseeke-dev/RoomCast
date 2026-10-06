@@ -1,0 +1,17 @@
+{
+    "name": "@roomcast/networking",
+    "version": "0.1.0",
+    "type": "module",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "dependencies": {
+        "@roomcast/protocol": "workspace:*"
+    },
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch"
+    },
+    "devDependencies": {
+        "typescript": "^5.3.3"
+    }
+}
